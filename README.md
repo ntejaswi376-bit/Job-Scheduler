@@ -82,32 +82,6 @@ This repository is evaluated on the following criteria:
 ## Architecture diagrams
 
 
-```mermaid
-flowchart TB
-  classDef header fill:#0f172a,stroke:#6366f1,color:#f8fafc,stroke-width:2px;
-  classDef item fill:#1e293b,stroke:#475569,color:#e2e8f0;
-  Evaluation["Evaluation Criteria"]:::header
-  Setup["Project Setup"]:::item
-  Arch["System Architecture"]:::item
-  DB["Database Design"]:::item
-  Backend["Backend Engineering"]:::item
-  Reliability["Reliability & Concurrency"]:::item
-  Frontend["Frontend & UX"]:::item
-  API["API Design"]:::item
-  Docs["Documentation"]:::item
-  Testing["Testing"]:::item
-
-  Evaluation --> Setup
-  Evaluation --> Arch
-  Evaluation --> DB
-  Evaluation --> Backend
-  Evaluation --> Reliability
-  Evaluation --> Frontend
-  Evaluation --> API
-  Evaluation --> Docs
-  Evaluation --> Testing
-```
-
 ### System Architecture
 
 ```mermaid
