@@ -10,21 +10,6 @@ A full-stack dashboard demo for a Supabase PostgreSQL-backed job scheduler, with
 - Frontend: React + Vite single-page dashboard app
 - Runtime: local development with `npm run dev`, production-ready build with `npm run build`
 
-## PRD Sections
-
-### Evaluation Criteria
-
-This repository is evaluated on the following criteria:
-
-- correctness of project setup and environment configuration
-- clarity and completeness of architecture and design decisions
-- consistency of backend and database design
-- reliability under concurrency and transactional behavior
-- usability of the frontend dashboard and UX flow
-- completeness of API design and endpoint coverage
-- quality of documentation in README and code comments
-- presence of validation, build, and runtime checks
-
 ### System Architecture
 
 - The app uses a single Express server (`server.ts`) to serve both API endpoints and the Vite-powered frontend in development.
